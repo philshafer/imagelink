@@ -73,7 +73,7 @@ fn main() {
         .about("Links images based on date")
         .arg(
             Arg::with_name("exif")
-                .short("e")
+                .short('e')
                 .long("exif")
                 .help("dump exif information; don't make links"),
         )
@@ -84,7 +84,7 @@ fn main() {
         )
         .arg(
             Arg::with_name("list")
-                .short("l")
+                .short('l')
                 .long("list")
                 .multiple(true)
                 .takes_value(true)
@@ -92,20 +92,20 @@ fn main() {
         )
         .arg(
             Arg::with_name("base")
-                .short("b")
+                .short('b')
                 .long("base")
                 .takes_value(true)
                 .help("Base directory for output links"),
         )
         .arg(
             Arg::with_name("no-execute")
-                .short("n")
+                .short('n')
                 .long("no-execute")
                 .help("Don't really make links"),
         )
         .arg(
             Arg::with_name("verbose")
-                .short("v")
+                .short('v')
                 .long("verbose")
                 .help("Make some noise!"),
         )
