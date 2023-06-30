@@ -3,3 +3,4 @@ data
 Cargo.lock
 *.orig
 *.rej
+target
